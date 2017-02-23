@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA1E03B91DAE102800FA9C88 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1E03B81DAE102800FA9C88 /* main.m */; };
+		DA1E03BC1DAE102800FA9C88 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1E03BB1DAE102800FA9C88 /* AppDelegate.m */; };
+		DA1E03BF1DAE102800FA9C88 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1E03BE1DAE102800FA9C88 /* ViewController.m */; };
+		DA1E03C21DAE102800FA9C88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA1E03C01DAE102800FA9C88 /* Main.storyboard */; };
+		DA1E03C41DAE102800FA9C88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA1E03C31DAE102800FA9C88 /* Assets.xcassets */; };
+		DA1E03C71DAE102800FA9C88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA1E03C51DAE102800FA9C88 /* LaunchScreen.storyboard */; };
+		DA1E03D21DAE102800FA9C88 /* Xampp_ServerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1E03D11DAE102800FA9C88 /* Xampp_ServerTests.m */; };
+		DA1E03DD1DAE102800FA9C88 /* Xampp_ServerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1E03DC1DAE102800FA9C88 /* Xampp_ServerUITests.m */; };
+		DA1E03FB1DAE1D7900FA9C88 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1E03FA1DAE1D7900FA9C88 /* TableViewController.m */; };
+		DA1E03FE1DAE1D9900FA9C88 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1E03FD1DAE1D9900FA9C88 /* TableViewCell.m */; };
+		DA1E04011DAE249700FA9C88 /* json.php in Resources */ = {isa = PBXBuildFile; fileRef = DA1E03FF1DAE249700FA9C88 /* json.php */; };
+		DA1E04021DAE249700FA9C88 /* testDb1.php in Resources */ = {isa = PBXBuildFile; fileRef = DA1E04001DAE249700FA9C88 /* testDb1.php */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA1E03CE1DAE102800FA9C88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA1E03AC1DAE102800FA9C88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA1E03B31DAE102800FA9C88;
+			remoteInfo = "Xampp Server";
+		};
+		DA1E03D91DAE102800FA9C88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA1E03AC1DAE102800FA9C88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA1E03B31DAE102800FA9C88;
+			remoteInfo = "Xampp Server";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA1E03B41DAE102800FA9C88 /* Xampp Server.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Xampp Server.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA1E03B81DAE102800FA9C88 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DA1E03BA1DAE102800FA9C88 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DA1E03BB1DAE102800FA9C88 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DA1E03BD1DAE102800FA9C88 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DA1E03BE1DAE102800FA9C88 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DA1E03C11DAE102800FA9C88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA1E03C31DAE102800FA9C88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA1E03C61DAE102800FA9C88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DA1E03C81DAE102800FA9C88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA1E03CD1DAE102800FA9C88 /* Xampp ServerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Xampp ServerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA1E03D11DAE102800FA9C88 /* Xampp_ServerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Xampp_ServerTests.m; sourceTree = "<group>"; };
+		DA1E03D31DAE102800FA9C88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA1E03D81DAE102800FA9C88 /* Xampp ServerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Xampp ServerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA1E03DC1DAE102800FA9C88 /* Xampp_ServerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Xampp_ServerUITests.m; sourceTree = "<group>"; };
+		DA1E03DE1DAE102800FA9C88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA1E03F91DAE1D7900FA9C88 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		DA1E03FA1DAE1D7900FA9C88 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		DA1E03FC1DAE1D9900FA9C88 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		DA1E03FD1DAE1D9900FA9C88 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		DA1E03FF1DAE249700FA9C88 /* json.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = json.php; sourceTree = "<group>"; };
+		DA1E04001DAE249700FA9C88 /* testDb1.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = testDb1.php; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA1E03B11DAE102800FA9C88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA1E03CA1DAE102800FA9C88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA1E03D51DAE102800FA9C88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA1E03AB1DAE102800FA9C88 = {
+			isa = PBXGroup;
+			children = (
+				DA1E03B61DAE102800FA9C88 /* Xampp Server */,
+				DA1E03D01DAE102800FA9C88 /* Xampp ServerTests */,
+				DA1E03DB1DAE102800FA9C88 /* Xampp ServerUITests */,
+				DA1E03B51DAE102800FA9C88 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA1E03B51DAE102800FA9C88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA1E03B41DAE102800FA9C88 /* Xampp Server.app */,
+				DA1E03CD1DAE102800FA9C88 /* Xampp ServerTests.xctest */,
+				DA1E03D81DAE102800FA9C88 /* Xampp ServerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA1E03B61DAE102800FA9C88 /* Xampp Server */ = {
+			isa = PBXGroup;
+			children = (
+				DA1E03BA1DAE102800FA9C88 /* AppDelegate.h */,
+				DA1E03BB1DAE102800FA9C88 /* AppDelegate.m */,
+				DA1E03FF1DAE249700FA9C88 /* json.php */,
+				DA1E04001DAE249700FA9C88 /* testDb1.php */,
+				DA1E03BD1DAE102800FA9C88 /* ViewController.h */,
+				DA1E03BE1DAE102800FA9C88 /* ViewController.m */,
+				DA1E03F91DAE1D7900FA9C88 /* TableViewController.h */,
+				DA1E03FA1DAE1D7900FA9C88 /* TableViewController.m */,
+				DA1E03FC1DAE1D9900FA9C88 /* TableViewCell.h */,
+				DA1E03FD1DAE1D9900FA9C88 /* TableViewCell.m */,
+				DA1E03C01DAE102800FA9C88 /* Main.storyboard */,
+				DA1E03C31DAE102800FA9C88 /* Assets.xcassets */,
+				DA1E03C51DAE102800FA9C88 /* LaunchScreen.storyboard */,
+				DA1E03C81DAE102800FA9C88 /* Info.plist */,
+				DA1E03B71DAE102800FA9C88 /* Supporting Files */,
+			);
+			path = "Xampp Server";
+			sourceTree = "<group>";
+		};
+		DA1E03B71DAE102800FA9C88 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA1E03B81DAE102800FA9C88 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DA1E03D01DAE102800FA9C88 /* Xampp ServerTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA1E03D11DAE102800FA9C88 /* Xampp_ServerTests.m */,
+				DA1E03D31DAE102800FA9C88 /* Info.plist */,
+			);
+			path = "Xampp ServerTests";
+			sourceTree = "<group>";
+		};
+		DA1E03DB1DAE102800FA9C88 /* Xampp ServerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DA1E03DC1DAE102800FA9C88 /* Xampp_ServerUITests.m */,
+				DA1E03DE1DAE102800FA9C88 /* Info.plist */,
+			);
+			path = "Xampp ServerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA1E03B31DAE102800FA9C88 /* Xampp Server */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA1E03E11DAE102800FA9C88 /* Build configuration list for PBXNativeTarget "Xampp Server" */;
+			buildPhases = (
+				DA1E03B01DAE102800FA9C88 /* Sources */,
+				DA1E03B11DAE102800FA9C88 /* Frameworks */,
+				DA1E03B21DAE102800FA9C88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Xampp Server";
+			productName = "Xampp Server";
+			productReference = DA1E03B41DAE102800FA9C88 /* Xampp Server.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA1E03CC1DAE102800FA9C88 /* Xampp ServerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA1E03E41DAE102800FA9C88 /* Build configuration list for PBXNativeTarget "Xampp ServerTests" */;
+			buildPhases = (
+				DA1E03C91DAE102800FA9C88 /* Sources */,
+				DA1E03CA1DAE102800FA9C88 /* Frameworks */,
+				DA1E03CB1DAE102800FA9C88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA1E03CF1DAE102800FA9C88 /* PBXTargetDependency */,
+			);
+			name = "Xampp ServerTests";
+			productName = "Xampp ServerTests";
+			productReference = DA1E03CD1DAE102800FA9C88 /* Xampp ServerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DA1E03D71DAE102800FA9C88 /* Xampp ServerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA1E03E71DAE102800FA9C88 /* Build configuration list for PBXNativeTarget "Xampp ServerUITests" */;
+			buildPhases = (
+				DA1E03D41DAE102800FA9C88 /* Sources */,
+				DA1E03D51DAE102800FA9C88 /* Frameworks */,
+				DA1E03D61DAE102800FA9C88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA1E03DA1DAE102800FA9C88 /* PBXTargetDependency */,
+			);
+			name = "Xampp ServerUITests";
+			productName = "Xampp ServerUITests";
+			productReference = DA1E03D81DAE102800FA9C88 /* Xampp ServerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA1E03AC1DAE102800FA9C88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Nagam Pawan";
+				TargetAttributes = {
+					DA1E03B31DAE102800FA9C88 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 5GDZQ7NK96;
+						ProvisioningStyle = Automatic;
+					};
+					DA1E03CC1DAE102800FA9C88 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DA1E03B31DAE102800FA9C88;
+					};
+					DA1E03D71DAE102800FA9C88 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DA1E03B31DAE102800FA9C88;
+					};
+				};
+			};
+			buildConfigurationList = DA1E03AF1DAE102800FA9C88 /* Build configuration list for PBXProject "Xampp Server" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA1E03AB1DAE102800FA9C88;
+			productRefGroup = DA1E03B51DAE102800FA9C88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA1E03B31DAE102800FA9C88 /* Xampp Server */,
+				DA1E03CC1DAE102800FA9C88 /* Xampp ServerTests */,
+				DA1E03D71DAE102800FA9C88 /* Xampp ServerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA1E03B21DAE102800FA9C88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA1E04011DAE249700FA9C88 /* json.php in Resources */,
+				DA1E03C71DAE102800FA9C88 /* LaunchScreen.storyboard in Resources */,
+				DA1E03C41DAE102800FA9C88 /* Assets.xcassets in Resources */,
+				DA1E04021DAE249700FA9C88 /* testDb1.php in Resources */,
+				DA1E03C21DAE102800FA9C88 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA1E03CB1DAE102800FA9C88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA1E03D61DAE102800FA9C88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA1E03B01DAE102800FA9C88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA1E03BF1DAE102800FA9C88 /* ViewController.m in Sources */,
+				DA1E03BC1DAE102800FA9C88 /* AppDelegate.m in Sources */,
+				DA1E03B91DAE102800FA9C88 /* main.m in Sources */,
+				DA1E03FE1DAE1D9900FA9C88 /* TableViewCell.m in Sources */,
+				DA1E03FB1DAE1D7900FA9C88 /* TableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA1E03C91DAE102800FA9C88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA1E03D21DAE102800FA9C88 /* Xampp_ServerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA1E03D41DAE102800FA9C88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA1E03DD1DAE102800FA9C88 /* Xampp_ServerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA1E03CF1DAE102800FA9C88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA1E03B31DAE102800FA9C88 /* Xampp Server */;
+			targetProxy = DA1E03CE1DAE102800FA9C88 /* PBXContainerItemProxy */;
+		};
+		DA1E03DA1DAE102800FA9C88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA1E03B31DAE102800FA9C88 /* Xampp Server */;
+			targetProxy = DA1E03D91DAE102800FA9C88 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DA1E03C01DAE102800FA9C88 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA1E03C11DAE102800FA9C88 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DA1E03C51DAE102800FA9C88 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA1E03C61DAE102800FA9C88 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA1E03DF1DAE102800FA9C88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA1E03E01DAE102800FA9C88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA1E03E21DAE102800FA9C88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5GDZQ7NK96;
+				INFOPLIST_FILE = "Xampp Server/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Neorays.Xampp-Server";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DA1E03E31DAE102800FA9C88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5GDZQ7NK96;
+				INFOPLIST_FILE = "Xampp Server/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Neorays.Xampp-Server";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DA1E03E51DAE102800FA9C88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Xampp ServerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Neorays.Xampp-ServerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Xampp Server.app/Xampp Server";
+			};
+			name = Debug;
+		};
+		DA1E03E61DAE102800FA9C88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Xampp ServerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Neorays.Xampp-ServerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Xampp Server.app/Xampp Server";
+			};
+			name = Release;
+		};
+		DA1E03E81DAE102800FA9C88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Xampp ServerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Neorays.Xampp-ServerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Xampp Server";
+			};
+			name = Debug;
+		};
+		DA1E03E91DAE102800FA9C88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Xampp ServerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Neorays.Xampp-ServerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Xampp Server";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA1E03AF1DAE102800FA9C88 /* Build configuration list for PBXProject "Xampp Server" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA1E03DF1DAE102800FA9C88 /* Debug */,
+				DA1E03E01DAE102800FA9C88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA1E03E11DAE102800FA9C88 /* Build configuration list for PBXNativeTarget "Xampp Server" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA1E03E21DAE102800FA9C88 /* Debug */,
+				DA1E03E31DAE102800FA9C88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA1E03E41DAE102800FA9C88 /* Build configuration list for PBXNativeTarget "Xampp ServerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA1E03E51DAE102800FA9C88 /* Debug */,
+				DA1E03E61DAE102800FA9C88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA1E03E71DAE102800FA9C88 /* Build configuration list for PBXNativeTarget "Xampp ServerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA1E03E81DAE102800FA9C88 /* Debug */,
+				DA1E03E91DAE102800FA9C88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA1E03AC1DAE102800FA9C88 /* Project object */;
+}
